@@ -1,3 +1,12 @@
 #root {
-  color: red;
+  color: black;
+}
+.jumbotron{
+  margin-top:20px ;
+  background-image: url(https://ak.picdn.net/shutterstock/videos/3104308/thumb/1.jpg);
+  background-size: cover;
+  color: aliceblue;
+}
+body{
+  background-color:black;
 }
