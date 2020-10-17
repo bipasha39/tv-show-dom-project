@@ -4,7 +4,7 @@ let searchInput= document.getElementById("search-for-episode")
 let allepisodes;
 function gameOfThronesEpisodes(){
 searchButton.addEventListener("click",doSearch)
-fetch("http://api.tvmaze.com/shows/82/episodes")
+fetch("https://api.tvmaze.com/shows/82/episodes")
   .then((response) => { console.log(response)
     if (response.status >= 200 && response.status <= 299) {
       return response.json();
